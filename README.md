@@ -45,7 +45,7 @@ defaults set in the sample_config, hence making it easier to upgrade.
 
 An example `config.py` file could be:
 ```
-from LaylaRobot.sample_config import Config
+from REBORN-PIKACHU.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 254318997  # your telegram ID
@@ -159,7 +159,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from LaylaRobot import dispatcher`.
+`from PIKACHU-REBORN import dispatcher`.
 
 You can then add commands using the usual
 
@@ -179,7 +179,7 @@ through the `/stats` command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
 
-`python3 -m LaylaRobot`
+`python3 -m PIKACHU`
 
 You can use [nssm](https://nssm.cc/usage) to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
@@ -195,4 +195,4 @@ The bot is based on the original work done by [PaulSonOfLars](https://github.com
 
 
 
-## [OWNER HERO](http://t.me/HEROGAMERS1)
+## [OWNER](http://t.me/AayushxKUMARZ)
