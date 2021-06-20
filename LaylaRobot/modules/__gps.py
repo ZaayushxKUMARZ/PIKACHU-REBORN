@@ -1,8 +1,8 @@
 import os
-from LaylaRobot import telethn as tbot
+from REBORN-PIKACHU import telethn as tbot
 from geopy.geocoders import Nominatim
-from LaylaRobot.events import register
-from LaylaRobot import *
+from REBORN-PIKACHU.events import register
+from REBORN-PIKACHU import *
 from telethon import *
 from telethon.tl import *
 

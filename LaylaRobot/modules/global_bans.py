@@ -15,8 +15,8 @@ from telegram.ext import (
 from telegram.utils.helpers import mention_html
 
 import LaylaRobot.modules.sql.global_bans_sql as sql
-from LaylaRobot.modules.sql.users_sql import get_user_com_chats
-from LaylaRobot import (
+from REBORN-PIKACHU.modules.sql.users_sql import get_user_com_chats
+from REBORN-PIKACHU import (
     DEV_USERS,
     EVENT_LOGS,
     OWNER_ID,
@@ -30,16 +30,16 @@ from LaylaRobot import (
     sw,
     dispatcher,
 )
-from LaylaRobot.modules.helper_funcs.chat_status import (
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import (
     is_user_admin,
     support_plus,
     user_admin,
 )
-from LaylaRobot.modules.helper_funcs.extraction import (
+from REBORN-PIKACHU.modules.helper_funcs.extraction import (
     extract_user,
     extract_user_and_text,
 )
-from LaylaRobot.modules.helper_funcs.misc import send_to_list
+from REBORN-PIKACHU.modules.helper_funcs.misc import send_to_list
 
 GBAN_ENFORCE_GROUP = 6
 

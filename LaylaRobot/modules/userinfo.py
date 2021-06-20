@@ -13,7 +13,7 @@ from telegram.ext.dispatcher import run_async
 from telegram.error import BadRequest
 from telegram.utils.helpers import escape_markdown, mention_html
 
-from LaylaRobot import (
+from REBORN-PIKACHU import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -24,15 +24,15 @@ from LaylaRobot import (
     dispatcher,
     sw,
 )
-from LaylaRobot.__main__ import STATS, TOKEN, USER_INFO
+from REBORN-PIKACHU.__main__ import STATS, TOKEN, USER_INFO
 import LaylaRobot.modules.sql.userinfo_sql as sql
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot.modules.sql.global_bans_sql import is_user_gbanned
-from LaylaRobot.modules.sql.afk_sql import is_afk, check_afk_status
-from LaylaRobot.modules.sql.users_sql import get_user_num_chats
-from LaylaRobot.modules.helper_funcs.chat_status import sudo_plus
-from LaylaRobot.modules.helper_funcs.extraction import extract_user
-from LaylaRobot import telethn as YoneTelethonClient, TIGERS, DRAGONS, DEMONS
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.sql.global_bans_sql import is_user_gbanned
+from REBORN-PIKACHU.modules.sql.afk_sql import is_afk, check_afk_status
+from REBORN-PIKACHU.modules.sql.users_sql import get_user_num_chats
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import sudo_plus
+from REBORN-PIKACHU.modules.helper_funcs.extraction import extract_user
+from REBORN-PIKACHU import telethn as YoneTelethonClient, TIGERS, DRAGONS, DEMONS
 
 
 def no_by_per(totalhp, percentage):

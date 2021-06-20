@@ -1,4 +1,4 @@
-from LaylaRobot import telethn as tbot
+from REBORN-PIKACHU import telethn as tbot
 import io
 import os
 import time
@@ -9,9 +9,9 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from LaylaRobot import *
+from REBORN-PIKACHU import *
 
-from LaylaRobot.events import register
+from REBORN-PIKACHU.events import register
 
 
 async def is_register_admin(chat, user):

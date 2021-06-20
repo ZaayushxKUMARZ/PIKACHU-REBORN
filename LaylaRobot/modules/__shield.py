@@ -25,21 +25,21 @@ from google_trans_new import google_translator
 from telethon import events
 from telethon.tl.types import ChatBannedRights
 
-from LaylaRobot import BOT_ID
-from LaylaRobot.conf import get_int_key, get_str_key
+from REBORN-PIKACHU import BOT_ID
+from REBORN-PIKACHU.conf import get_int_key, get_str_key
 
-# from LaylaRobot.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
-from LaylaRobot.pyrogramee.telethonbasics import is_admin
-from LaylaRobot.events import register
-from LaylaRobot import MONGO_DB_URI 
+# from REBORN-PIKACHU.db.mongo_helpers.nsfw_guard import add_chat, get_all_nsfw_chats, is_chat_in_db, rm_chat
+from REBORN-PIKACHU.pyrogramee.telethonbasics import is_admin
+from REBORN-PIKACHU.events import register
+from REBORN-PIKACHU import MONGO_DB_URI 
 from pymongo import MongoClient
-from LaylaRobot.modules.sql_extended.nsfw_watch_sql import (
+from REBORN-PIKACHU.modules.sql_extended.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
     rmnsfwatch,
 )
-from LaylaRobot import telethn as tbot
+from REBORN-PIKACHU import telethn as tbot
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)

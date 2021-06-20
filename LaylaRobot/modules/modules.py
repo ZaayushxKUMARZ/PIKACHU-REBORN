@@ -1,8 +1,8 @@
 import importlib
 import collections
 
-from LaylaRobot import dispatcher, telethn
-from LaylaRobot.__main__ import (
+from REBORN-PIKACHU import dispatcher, telethn
+from REBORN-PIKACHU.__main__ import (
     CHAT_SETTINGS,
     DATA_EXPORT,
     DATA_IMPORT,
@@ -13,7 +13,7 @@ from LaylaRobot.__main__ import (
     USER_INFO,
     USER_SETTINGS,
 )
-from LaylaRobot.modules.helper_funcs.chat_status import dev_plus, sudo_plus
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import dev_plus, sudo_plus
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, CommandHandler, run_async
 

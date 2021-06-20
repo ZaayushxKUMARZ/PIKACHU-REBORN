@@ -1,6 +1,6 @@
-from LaylaRobot import telethn as tbot
+from REBORN-PIKACHU import telethn as tbot
 import os
-from LaylaRobot.events import register
+from REBORN-PIKACHU.events import register
 import secureme
 
 @register(pattern="^/encrypt ?(.*)")

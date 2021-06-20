@@ -1,13 +1,13 @@
-from LaylaRobot import telethn as tbot
-from LaylaRobot.events import register
+from REBORN-PIKACHU import telethn as tbot
+from REBORN-PIKACHU.events import register
 import os
 import asyncio
 import os
 import time
 from datetime import datetime
-from LaylaRobot import OWNER_ID, DEV_USERS
-from LaylaRobot import TEMP_DOWNLOAD_DIRECTORY as path
-from LaylaRobot import TEMP_DOWNLOAD_DIRECTORY
+from REBORN-PIKACHU import OWNER_ID, DEV_USERS
+from REBORN-PIKACHU import TEMP_DOWNLOAD_DIRECTORY as path
+from REBORN-PIKACHU import TEMP_DOWNLOAD_DIRECTORY
 from datetime import datetime
 water = './LaylaRobot/resources/yone.jpg'
 client = tbot

@@ -10,19 +10,19 @@ from telegram.utils.helpers import mention_html
 from alphabet_detector import AlphabetDetector
 
 import LaylaRobot.modules.sql.locks_sql as sql
-from LaylaRobot import dispatcher, DRAGONS, LOGGER
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot.modules.helper_funcs.chat_status import (
+from REBORN-PIKACHU import dispatcher, DRAGONS, LOGGER
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import (
     can_delete,
     is_user_admin,
     user_not_admin,
     is_bot_admin,
     user_admin,
 )
-from LaylaRobot.modules.log_channel import loggable
-from LaylaRobot.modules.connection import connected
-from LaylaRobot.modules.sql.approve_sql import is_approved
-from LaylaRobot.modules.helper_funcs.alternate import send_message, typing_action
+from REBORN-PIKACHU.modules.log_channel import loggable
+from REBORN-PIKACHU.modules.connection import connected
+from REBORN-PIKACHU.modules.sql.approve_sql import is_approved
+from REBORN-PIKACHU.modules.helper_funcs.alternate import send_message, typing_action
 
 ad = AlphabetDetector()
 

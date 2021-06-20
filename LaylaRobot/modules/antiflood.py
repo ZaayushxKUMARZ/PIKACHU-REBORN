@@ -4,15 +4,15 @@ import re
 
 from telegram import Message, Chat, Update, User, ChatPermissions
 
-from LaylaRobot import TIGERS, WOLVES, dispatcher
-from LaylaRobot.modules.helper_funcs.chat_status import (
+from REBORN-PIKACHU import TIGERS, WOLVES, dispatcher
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import (
     bot_admin,
     is_user_admin,
     user_admin,
     user_admin_no_reply,
 )
-from LaylaRobot.modules.log_channel import loggable
-from LaylaRobot.modules.sql import antiflood_sql as sql
+from REBORN-PIKACHU.modules.log_channel import loggable
+from REBORN-PIKACHU.modules.sql import antiflood_sql as sql
 from telegram.error import BadRequest
 from telegram.ext import (
     CallbackContext,
@@ -23,10 +23,10 @@ from telegram.ext import (
     run_async,
 )
 from telegram.utils.helpers import mention_html, escape_markdown
-from LaylaRobot.modules.helper_funcs.string_handling import extract_time
-from LaylaRobot.modules.connection import connected
-from LaylaRobot.modules.helper_funcs.alternate import send_message
-from LaylaRobot.modules.sql.approve_sql import is_approved
+from REBORN-PIKACHU.modules.helper_funcs.string_handling import extract_time
+from REBORN-PIKACHU.modules.connection import connected
+from REBORN-PIKACHU.modules.helper_funcs.alternate import send_message
+from REBORN-PIKACHU.modules.sql.approve_sql import is_approved
 
 FLOOD_GROUP = 3
 

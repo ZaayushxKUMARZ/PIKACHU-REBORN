@@ -11,10 +11,10 @@ import aiohttp
 from google_trans_new import google_translator
 from pyrogram import filters
 
-from LaylaRobot import BOT_ID
-from LaylaRobot.helper_extra.aichat import add_chat, get_session, remove_chat
-from LaylaRobot.pyrogramee.pluginshelper import admins_only, edit_or_reply
-from LaylaRobot import pbot as layla
+from REBORN-PIKACHU import BOT_ID
+from REBORN-PIKACHU.helper_extra.aichat import add_chat, get_session, remove_chat
+from REBORN-PIKACHU.pyrogramee.pluginshelper import admins_only, edit_or_reply
+from REBORN-PIKACHU import pbot as layla
 
 translator = google_translator()
 import requests

@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import String, Column, Integer, UnicodeText
 
-from LaylaRobot.modules.sql import SESSION, BASE
+from REBORN-PIKACHU.modules.sql import SESSION, BASE
 
 DEF_COUNT = 1
 DEF_LIMIT = 0

@@ -1,6 +1,6 @@
-from LaylaRobot.events import register
-from LaylaRobot import OWNER_ID
-from LaylaRobot import telethn as tbot
+from REBORN-PIKACHU.events import register
+from REBORN-PIKACHU import OWNER_ID
+from REBORN-PIKACHU import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 import shutil 

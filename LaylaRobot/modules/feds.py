@@ -7,7 +7,7 @@ import uuid
 from io import BytesIO
 
 import LaylaRobot.modules.sql.feds_sql as sql
-from LaylaRobot import (
+from REBORN-PIKACHU import (
     EVENT_LOGS,
     LOGGER,
     SUPPORT_CHAT,
@@ -17,15 +17,15 @@ from LaylaRobot import (
     WOLVES,
     dispatcher,
 )
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot.modules.helper_funcs.alternate import send_message
-from LaylaRobot.modules.helper_funcs.chat_status import is_user_admin
-from LaylaRobot.modules.helper_funcs.extraction import (
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.alternate import send_message
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import is_user_admin
+from REBORN-PIKACHU.modules.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from LaylaRobot.modules.helper_funcs.string_handling import markdown_parser
+from REBORN-PIKACHU.modules.helper_funcs.string_handling import markdown_parser
 from telegram import (
     InlineKeyboardButton,
     InlineKeyboardMarkup,

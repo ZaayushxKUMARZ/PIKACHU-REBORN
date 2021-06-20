@@ -1,7 +1,7 @@
 import threading
 
-from LaylaRobot import dispatcher
-from LaylaRobot.modules.sql import BASE, SESSION
+from REBORN-PIKACHU import dispatcher
+from REBORN-PIKACHU.modules.sql import BASE, SESSION
 from sqlalchemy import (
     Column,
     ForeignKey,

@@ -1,5 +1,5 @@
-from LaylaRobot import pbot as app
-from LaylaRobot.utils.dbfunc import get_couple, save_couple
+from REBORN-PIKACHU import pbot as app
+from REBORN-PIKACHU.utils.dbfunc import get_couple, save_couple
 from pyrogram import filters
 import random
 from datetime import datetime

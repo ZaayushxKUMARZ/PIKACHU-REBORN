@@ -4,13 +4,13 @@ import random
 from typing import Optional
 
 import LaylaRobot.modules.sql.notes_sql as sql
-from LaylaRobot import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
-from LaylaRobot.modules.disable import DisableAbleCommandHandler
-from LaylaRobot.modules.helper_funcs.handlers import MessageHandlerChecker
-from LaylaRobot.modules.helper_funcs.chat_status import user_admin, connection_status
-from LaylaRobot.modules.helper_funcs.misc import build_keyboard, revert_buttons
-from LaylaRobot.modules.helper_funcs.msg_types import get_note_type
-from LaylaRobot.modules.helper_funcs.string_handling import (
+from REBORN-PIKACHU import LOGGER, JOIN_LOGGER, SUPPORT_CHAT, dispatcher, DRAGONS
+from REBORN-PIKACHU.modules.disable import DisableAbleCommandHandler
+from REBORN-PIKACHU.modules.helper_funcs.handlers import MessageHandlerChecker
+from REBORN-PIKACHU.modules.helper_funcs.chat_status import user_admin, connection_status
+from REBORN-PIKACHU.modules.helper_funcs.misc import build_keyboard, revert_buttons
+from REBORN-PIKACHU.modules.helper_funcs.msg_types import get_note_type
+from REBORN-PIKACHU.modules.helper_funcs.string_handling import (
     escape_invalid_curly_brackets,
 )
 from telegram import (

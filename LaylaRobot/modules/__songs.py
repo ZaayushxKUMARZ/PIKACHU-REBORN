@@ -6,8 +6,8 @@ import requests
 import wget
 from pyrogram import filters
 
-from LaylaRobot import pbot as Jebot
-from LaylaRobot.pyrogramee.dark import get_arg
+from REBORN-PIKACHU import pbot as Jebot
+from REBORN-PIKACHU.pyrogramee.dark import get_arg
 
 
 @Jebot.on_message(filters.command("saavn"))
@@ -44,7 +44,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from LaylaRobot import pbot as Layla
+from REBORN-PIKACHU import pbot as Layla
 
 ARQ = "https://thearq.tech/"
 
@@ -98,7 +98,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from LaylaRobot import pbot as ASUNA
+from REBORN-PIKACHU import pbot as ASUNA
 
 ARQ = "https://thearq.tech/"
 

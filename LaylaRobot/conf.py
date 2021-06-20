@@ -1,5 +1,5 @@
 from envparse import env
-from LaylaRobot import LOGGER
+from REBORN-PIKACHU import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,

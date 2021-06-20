@@ -2,9 +2,9 @@ import sre_constants
 
 import regex
 import telegram
-from LaylaRobot import LOGGER, dispatcher
-from LaylaRobot.modules.disable import DisableAbleMessageHandler
-from LaylaRobot.modules.helper_funcs.regex_helper import infinite_loop_check
+from REBORN-PIKACHU import LOGGER, dispatcher
+from REBORN-PIKACHU.modules.disable import DisableAbleMessageHandler
+from REBORN-PIKACHU.modules.helper_funcs.regex_helper import infinite_loop_check
 from telegram import Update
 from telegram.ext import CallbackContext, Filters, run_async
 
