@@ -19,7 +19,7 @@ jobs:
 
         with:
 
-          find: "from LaylaRobot"
+          find: "from Layla"
 
           replace: "from REBORN-PIKACHU"
 
