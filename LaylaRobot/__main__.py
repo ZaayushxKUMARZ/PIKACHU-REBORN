@@ -105,7 +105,7 @@ buttons = [
 HELP_STRINGS = """
 `Hi.. I'M` PIKACHU
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
-Powered by :- [TEAM XTRA](t.me/TEAM_XTRA_NETWORK)"""
+Powered by :- [TEAM XTRA](@TEAM_XTRA_NETWORK)"""
 
 layla_IMG = "https://telegra.ph/file/dc29dcc863d8210fa9c9d.jpg"
 
