@@ -103,15 +103,15 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'M` Layla
+`Hi.. I'M` PIKACHU
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`
-Powered by :- [Awesome Bots](t.me/TEAM_XTRA_NETWORK)"""
+Powered by :- [TEAM XTRA](t.me/TEAM_XTRA_NETWORK)"""
 
 layla_IMG = "https://telegra.ph/file/dc29dcc863d8210fa9c9d.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [Hero](t.me/HEROGAMERS1) \
- Supporting isnt always financial! [AwesomeSupport](t.me/LaylaList) \
+ You can support the project [OWNER](t.me/AayushxKUMARZ) \
+ Supporting isnt always financial! [PikachuSupport](https://t.me/PIKACHU_SUPPORT) \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
@@ -357,7 +357,7 @@ def layla_about_callback(update, context):
     query = update.callback_query
     if query.data == "layla_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Layla*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *PIKACHU *, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
@@ -365,9 +365,9 @@ def layla_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_Layla's licensed under the GNU General Public License v3.0_
-                 \n❍ Awesome Bots @LaylaList
-                 \n❍ Support Group @AwesomeSupport
-                 \n❍ Assistant @LaylaAssistant.
+                 \n❍ Support chat @PIKACHU_SUPPORT
+                 \n❍ Group under @TEAM_XTRA_NETWORK
+                 \n❍ Bot @REBORN_PIKACHUBOT.
                  \nHere is the [💾Repository](https://github.com/ZaayushxKUMARZ/PIKACHU-REBORN).
                  \n\nIf you have any question about Pikachu, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
